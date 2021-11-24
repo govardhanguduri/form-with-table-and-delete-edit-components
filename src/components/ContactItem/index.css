@@ -1,0 +1,89 @@
+.table-row {
+  display: flex;
+  list-style-type: none;
+  border-color: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-left: 2px solid #000000;
+  
+}
+
+.table-cell {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+
+.table,th, td {
+  border: 2px solid black;
+  height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+  border: 2px solid black;
+}
+
+.name-column {
+  width: 24%;
+  text-transform: capitalize;
+  border-color: #000000;
+}
+
+.serial-column {
+    width: 11.7%;
+    border-color: #000000;
+}
+
+.Email-column {
+  width: 22%;
+}
+
+.email-column {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.deletecontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+
+
+.deletebutton {
+  background-color: #ffffff;
+  color:  #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 30px;
+  
+}
+
+.delete {
+  height: 30px;
+  width: 30px;
+  color: #000000;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.edit {
+  height: 20px;
+  width: 20px;
+  color: #000000;
+  margin-left: 70px;
+  margin-right: 72px;
+}
